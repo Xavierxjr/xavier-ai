@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/xavier-ai/static/css/main.4f2667d9.chunk.css",
+    "main.js": "/xavier-ai/static/js/main.741be659.chunk.js",
+    "main.js.map": "/xavier-ai/static/js/main.741be659.chunk.js.map",
+    "runtime-main.js": "/xavier-ai/static/js/runtime-main.773d4bfe.js",
+    "runtime-main.js.map": "/xavier-ai/static/js/runtime-main.773d4bfe.js.map",
+    "static/js/2.6fe711cb.chunk.js": "/xavier-ai/static/js/2.6fe711cb.chunk.js",
+    "static/js/2.6fe711cb.chunk.js.map": "/xavier-ai/static/js/2.6fe711cb.chunk.js.map",
+    "index.html": "/xavier-ai/index.html",
+    "precache-manifest.17ef8cf861bb51dd80c316a1f4867ff6.js": "/xavier-ai/precache-manifest.17ef8cf861bb51dd80c316a1f4867ff6.js",
+    "service-worker.js": "/xavier-ai/service-worker.js",
+    "static/css/main.4f2667d9.chunk.css.map": "/xavier-ai/static/css/main.4f2667d9.chunk.css.map",
+    "static/js/2.6fe711cb.chunk.js.LICENSE.txt": "/xavier-ai/static/js/2.6fe711cb.chunk.js.LICENSE.txt",
+    "static/media/10.jpg": "/xavier-ai/static/media/10.ed2bb5d1.jpg",
+    "static/media/20.jpg": "/xavier-ai/static/media/20.e20281b1.jpg",
+    "static/media/5.jpg": "/xavier-ai/static/media/5.d01dcf8e.jpg",
+    "static/media/50.jpg": "/xavier-ai/static/media/50.ba5d7657.jpg",
+    "static/media/home.jpg": "/xavier-ai/static/media/home.198668cf.jpg",
+    "static/media/pig.jpg": "/xavier-ai/static/media/pig.c2a1d244.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.773d4bfe.js",
+    "static/js/2.6fe711cb.chunk.js",
+    "static/css/main.4f2667d9.chunk.css",
+    "static/js/main.741be659.chunk.js"
+  ]
+}
