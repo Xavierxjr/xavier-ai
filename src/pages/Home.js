@@ -29,7 +29,7 @@ function Home() {
                                 href="./CsvReader"
                                 class="btn btn-primary my-2"
                                 style={{ marginRight: "40px" }}
-                            >Analyse files</a>
+                            >Analyse files </a>
                             <a
                                 href="./Rewards"
                                 class="btn btn-secondary my-2"
