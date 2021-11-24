@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/xavier-ai/static/css/main.5ab29de0.chunk.css",
-    "main.js": "/xavier-ai/static/js/main.9079c07f.chunk.js",
-    "main.js.map": "/xavier-ai/static/js/main.9079c07f.chunk.js.map",
+    "main.js": "/xavier-ai/static/js/main.536b9305.chunk.js",
+    "main.js.map": "/xavier-ai/static/js/main.536b9305.chunk.js.map",
     "runtime-main.js": "/xavier-ai/static/js/runtime-main.59f1901b.js",
     "runtime-main.js.map": "/xavier-ai/static/js/runtime-main.59f1901b.js.map",
     "static/js/2.cbd5359c.chunk.js": "/xavier-ai/static/js/2.cbd5359c.chunk.js",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.59f1901b.js",
     "static/js/2.cbd5359c.chunk.js",
     "static/css/main.5ab29de0.chunk.css",
-    "static/js/main.9079c07f.chunk.js"
+    "static/js/main.536b9305.chunk.js"
   ]
 }
