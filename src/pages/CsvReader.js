@@ -107,7 +107,7 @@ function CsvReader() {
                     zIndex: "-1",
                 }}>
             </img>
-            <div style={{ textAlign: "center" }}>
+            <div style={{ textAlign: "center", zIndex:"-1"}}>
                 <h3 style={{ textAlign: "center" }}>Upload your CSV file here</h3>
                 <input
                     type="file"
@@ -139,6 +139,7 @@ function CsvReader() {
                     columns={column}
                     data={data}
                     updateMyData={updateData}
+                    style={{zIndex:"-1", width:"90%"}}
                 />
             </div>
             <footer style={{

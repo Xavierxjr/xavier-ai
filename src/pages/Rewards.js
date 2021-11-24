@@ -57,7 +57,7 @@ function Rewards() {
                     WebkitFilter: "blur(10px)",
                     msFilter: "blur(10px)",
                     filter: "blur(10px)",
-                    opacity:"0.75",
+                    opacity: "0.8",
                     zIndex: "-1",
                 }}></img>
 
@@ -102,7 +102,12 @@ function Rewards() {
                         margin: "0 auto",
                         display: "block",
                         marginTop: "15px",
-                    }}>
+                    }}
+                        type="submit"
+                        class="btn btn-primary mb-5"
+                        onClick={() => {
+                            if (window.confirm('Are you sure to select this reward?')) this.onConfirm(Response)
+                        }}>
                         Select it!
                     </button>
                 </div>
@@ -144,7 +149,12 @@ function Rewards() {
                         margin: "0 auto",
                         display: "block",
                         marginTop: "15px",
-                    }}>
+                    }}
+                        type="submit"
+                        class="btn btn-primary mb-5"
+                        onClick={() => {
+                            if (window.confirm('Are you sure to select this reward?')) this.onConfirm(Response)
+                        }}>
                         Select it!
                     </button>
                 </div>
@@ -185,7 +195,12 @@ function Rewards() {
                         margin: "0 auto",
                         display: "block",
                         marginTop: "15px",
-                    }}>
+                    }}
+                        type="submit"
+                        class="btn btn-primary mb-5"
+                        onClick={() => {
+                            if (window.confirm('Are you sure to select this reward?')) this.onConfirm(Response)
+                        }}>
                         Select it!
                     </button>
                 </div>
@@ -227,11 +242,17 @@ function Rewards() {
                         margin: "0 auto",
                         display: "block",
                         marginTop: "15px",
-                    }}>
+                    }}
+                        type="submit"
+                        class="btn btn-primary mb-5"
+                        onClick={() => {
+                            if (window.confirm('Are you sure to select this reward?')) this.onConfirm(Response)
+                        }}>
                         Select it!
                     </button>
                 </div>
-            </div><footer style={{
+            </div>
+            <footer style={{
                 clear: "both",
                 height: "85px",
                 width: "100%",

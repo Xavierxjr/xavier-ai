@@ -12,19 +12,19 @@ export const SidebarData = [
     },
     {
         title: 'CsvReader',
-        path: '/csvReader',
+        path: '/CsvReader',
         icon: <FaIcons.FaFileCsv />,
         cName: 'nav-text'
     },
     {
         title: 'Rewards',
-        path: 'rewards',
+        path: 'Rewards',
         icon: <AiIcons.AiOutlineGift />,
         cName: 'nav-text'
     },
     {
         title: 'Support',
-        path: '/support',
+        path: '/Support',
         icon: <IoIcons.IoMdHelpCircle />,
         cName: 'nav-text'
     },

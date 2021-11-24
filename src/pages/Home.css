@@ -1,0 +1,43 @@
+.anz {
+    height: 230px;
+    width: 460px;
+}
+
+.anz:hover {
+    transform: scale(1.12);
+    opacity: 0.75;
+    transition: transform .3s;
+}
+
+.bnz {
+    height: 230px;
+    width: 460px;
+}
+
+.bnz:hover {
+    transform: scale(1.12);
+    opacity: 0.75;
+    transition: transform .3s;
+}
+
+.asb {
+    height: 230px;
+    width: 460px;
+}
+
+.asb:hover {
+    transform: scale(1.12);
+    opacity: 0.75;
+    transition: transform .3s;
+}
+
+.news {
+    height: 215px;
+    width: 610px;
+}
+
+.news:hover {
+    transform: scale(1.12);
+    opacity: 0.75;
+    transition: transform .3s;
+}

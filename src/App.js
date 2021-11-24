@@ -14,9 +14,9 @@ function App() {
         <Navbar />
         <Switch>
           <Route path='/' exact component={Home} />
-          <Route path='/csvReader' component={CsvReader} />
-          <Route path='/rewards' component={Rewards} />
-          <Route path='/support' component={Support} />
+          <Route path='/CsvReader' component={CsvReader} />
+          <Route path='/Rewards' component={Rewards} />
+          <Route path='/Support' component={Support} />
         </Switch>
       </Router>
     </>
