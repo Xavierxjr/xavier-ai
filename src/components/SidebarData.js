@@ -18,7 +18,7 @@ export const SidebarData = [
     },
     {
         title: 'Rewards',
-        path: 'Rewards',
+        path: '/Rewards',
         icon: <AiIcons.AiOutlineGift />,
         cName: 'nav-text'
     },
