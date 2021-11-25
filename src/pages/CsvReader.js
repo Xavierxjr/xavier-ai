@@ -3,7 +3,6 @@ import * as XLSX from 'xlsx';
 import DataTable from 'react-data-table-component';
 import readerImage from "./images/pig.jpg";
 import CsvDownloader from 'react-csv-downloader';
-import { CsvToHtmlTable } from 'react-csv-to-table';
 
 function CsvReader() {
     const [column, setColumn] = useState([]);
@@ -75,24 +74,25 @@ function CsvReader() {
         reader.readAsBinaryString(file);
     }
 
-    
+
     const updateData = (rowIndex, columnId, value) => {
         setData(old =>
-          old.map((row, index) => {
-            if (index === rowIndex) {
-              return {
-                ...old[rowIndex],
-                [columnId]: value,
-              }
-            }
-            return row
-          })
+            old.map((row, index) => {
+                if (index === rowIndex) {
+                    return {
+                        ...old[rowIndex],
+                        [columnId]: value,
+                    }
+                }
+                return row
+            })
         )
-      }
+    }
 
     return (
-        <div style={{ marginTop: "90px" }}>
+        <div className="csvReader" style={{ marginTop: "90px" }}>
             <img src="./images/pig.jpg"
+                alt="reader"
                 style={{
                     position: "fixed",
                     minWidth: "100%",
@@ -107,7 +107,7 @@ function CsvReader() {
                     zIndex: "-1",
                 }}>
             </img>
-            <div style={{ textAlign: "center", zIndex:"-1"}}>
+            <div style={{ textAlign: "center", zIndex: "-1" }}>
                 <h3 style={{ textAlign: "center" }}>Upload your CSV file here</h3>
                 <input
                     type="file"
@@ -129,17 +129,17 @@ function CsvReader() {
                     extension=".csv"
                     columns={column}
                     datas={data}
-                    text="Download" 
+                    text="Download"
                     style={{
-                        marginLeft:"180px"
-                    }}/>
+                        marginLeft: "180px"
+                    }} />
                 <DataTable
                     pagination
                     highlightOnHover
                     columns={column}
                     data={data}
                     updateMyData={updateData}
-                    style={{zIndex:"-1", width:"90%"}}
+                    style={{ zIndex: "-1", width: "90%" }}
                 />
             </div>
             <footer style={{

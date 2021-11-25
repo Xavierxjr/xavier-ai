@@ -17,7 +17,7 @@ const Support = () => {
     }
 
     return (
-        <div>
+        <div className="support">
             <section style={{
                 position: "fixed",
                 padding: "0",

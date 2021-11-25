@@ -45,8 +45,9 @@ function Rewards() {
     }
 
     return (
-        <div>
+        <div className="reward">
             <img src="./images/pig.jpg"
+                alt="rewards"
                 style={{
                     position: "absolute",
                     minWidth: "100%",
